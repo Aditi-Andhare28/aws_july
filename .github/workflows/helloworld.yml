@@ -1,0 +1,12 @@
+name: First Hello World GitHub Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-hello:
+    runs-on: ubuntu 22.04
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello students,this is my first Github Action"   
